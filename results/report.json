@@ -1,20 +1,56 @@
 [
   {
     "id": 1,
-    "exact_match": true,
-    "has_reasoning": false,
-    "uncertainty_flag": false
+    "task": "math",
+    "model_type": "baseline",
+    "prompt": "If a train travels 60 km in 1.5 hours, what is its average speed?",
+    "model_output": "If a train travels 60 km in 1.5 hours, what is its average speed?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "score": 0,
+    "category": "incorrect"
+  },
+  {
+    "id": 1,
+    "task": "math",
+    "model_type": "instruction",
+    "prompt": "If a train travels 60 km in 1.5 hours, what is its average speed?",
+    "model_output": "60 km/h",
+    "score": 0,
+    "category": "incorrect"
   },
   {
     "id": 2,
-    "exact_match": false,
-    "has_reasoning": false,
-    "uncertainty_flag": false
+    "task": "logic",
+    "model_type": "baseline",
+    "prompt": "All roses are flowers. Some flowers fade quickly. Can we conclude that some roses fade quickly?",
+    "model_output": "All roses are flowers. Some flowers fade quickly. Can we conclude that some roses fade quickly?\n\nI am not sure which flower will fade quickly, but the flowers in the center are much less of a mystery. I am quite sure that some flowers fade quickly. I am quite sure that some roses fade quickly. I am quite sure that some flowers fade quickly.\nSome flowers fade quickly. Can we conclude that some roses fade quickly?\nIt is not hard to see the difference between roses and flowers. But I can tell you that all the roses that fade quickly have many different characteristics",
+    "score": 0,
+    "category": "uncertain_or_weak"
+  },
+  {
+    "id": 2,
+    "task": "logic",
+    "model_type": "instruction",
+    "prompt": "All roses are flowers. Some flowers fade quickly. Can we conclude that some roses fade quickly?",
+    "model_output": "yes",
+    "score": 0,
+    "category": "incorrect"
   },
   {
     "id": 3,
-    "exact_match": false,
-    "has_reasoning": false,
-    "uncertainty_flag": false
+    "task": "instruction",
+    "model_type": "baseline",
+    "prompt": "Summarize in exactly 5 words: Artificial intelligence is transforming healthcare.",
+    "model_output": "Summarize in exactly 5 words: Artificial intelligence is transforming healthcare.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "score": 0,
+    "category": "incorrect"
+  },
+  {
+    "id": 3,
+    "task": "instruction",
+    "model_type": "instruction",
+    "prompt": "Summarize in exactly 5 words: Artificial intelligence is transforming healthcare.",
+    "model_output": "Artificial intelligence is transforming healthcare.",
+    "score": 0,
+    "category": "incorrect"
   }
 ]
