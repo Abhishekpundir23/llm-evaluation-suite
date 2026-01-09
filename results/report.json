@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "exact_match": true,
+    "has_reasoning": false,
+    "uncertainty_flag": false
+  },
+  {
+    "id": 2,
+    "exact_match": false,
+    "has_reasoning": false,
+    "uncertainty_flag": false
+  },
+  {
+    "id": 3,
+    "exact_match": false,
+    "has_reasoning": false,
+    "uncertainty_flag": false
+  }
+]
